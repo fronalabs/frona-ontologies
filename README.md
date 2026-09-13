@@ -181,7 +181,7 @@ resolving.
 ones, so a release is reproducible from a laptop.
 
 ```bash
-mise install                        # rust 1.95.0, jq
+mise install                        # rust 1.99.1, jq
 mise run build                      # all sources → dist/
 mise run build:one kbpedia          # just one
 mise run test                       # the guards
