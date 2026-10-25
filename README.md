@@ -46,7 +46,7 @@ dependencies (`oxigraph`, `oxrdf`, `flate2`, `anyhow`), no HTTP client, no reaso
 crates become 149.
 
 ```toml
-frona-ontologies = { git = "…", tag = "ont-<pinned>", default-features = false }
+frona-ontologies = { version = "0.1.0", default-features = false }
 ```
 
 ```rust

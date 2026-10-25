@@ -1,9 +1,11 @@
 //! `ont` — turn published ontologies into small, ready-to-index release artifacts.
 //!
+//! ```text
 //!   ont build [--source <name>] [--out dist] [--cache target/cache] [--recipes recipes]
 //!   ont diff <source> <term> [--out dist] [--cache target/cache] [--color <when>]
 //!   ont project <term>… [--reasoner] [--baseline] [--ttl] [--out dist]
 //!   ont wordnet <english-wordnet.ttl> [--out data/wordnet-pos.tsv.gz]
+//! ```
 //!
 //! `build` is what CI runs. `diff` shows what the build did to one term, upstream
 //! versus artifact. `wordnet` regenerates the vendored part-of-speech index and is run by

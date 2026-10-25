@@ -4,6 +4,8 @@ version = "0.1.0"
 edition = "2024"
 description = "Prepares published ontologies into small artifacts, and answers subsumption and disjointness over them without materialising"
 license = "MIT"
+repository = "https://github.com/fronalabs/frona-ontologies"
+documentation = "https://docs.rs/frona-ontologies"
 
 [[bin]]
 name = "ont"
